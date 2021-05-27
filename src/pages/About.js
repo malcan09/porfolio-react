@@ -8,7 +8,13 @@ function About() {
         <div className="container">
              <div className="section-title">
                  <h2>About</h2>
-                 <p>I am a student here at the coding bootcamp. I have taken this cource because I am interested in coding and I want to become a software engineer. Being a sociable person, I have many friends since I like to communicate with people and get to know new interesting individuals. </p>
+                 <p> I was born in Tijuana, Mexico on February 17th 1995. I grew up there until I moved to San
+                        Diego, California at the age of 13 in 2008. I attended Point loma High School all 4 years before
+                        moving
+                        to Boston, Massachussets to continue my college education.
+                        At the University of Massachussets, Boston I studied Social Psychology and Spanish
+                        Literature.Also, I
+                        was part of the soccer team all 4 years, being captain my senior year. </p>
             </div>
             <div className="row">
                 <div className="col-lg-4">

@@ -8,16 +8,16 @@ import Footer from "./components/Footer/index"
 import About from "./pages/About"
 
 
-function App () {
+function App() {
     return (
-       <Router>
-    <div>
-       <Navbar />
-       <Header />
-       <Route exact path="/about" component={About} />
-       <Footer />
-    </div>
-       </Router>
+        <Router>
+            <div>
+                <Navbar />
+                <Header />
+                <Route exact path="/about" component={About} />
+                <Footer />
+            </div>
+        </Router>
     );
 }
 
