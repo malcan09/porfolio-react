@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
-root {
+:root {
     --primary-white: #fff;
+    --primary-orange: #f93a00;
+    --primary-dark: rgba(225, 255, 255 ,0);
 }
 body {
     font-family: 'Montserrat', sans-serif;}
-/****** Navbar***/
+
+    /****** Navbar***/
 
 nav a.nav-link {
     font-weight: 500;
@@ -19,6 +22,18 @@ nav ul li {
 
 .navbar-nav > li > a {
     margin-right: 0.75rem;
-    color: #fff; 
+    margin-left: 00.75rem;
+    color: var(--primary-white) !important;
+    border-top: 0.1875rem solid  var(--primary-dark);
+}
+.navbar-brand {
+    max-width: 17.25rem;
+    color: var(--primary-white) !important;
+}
 
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+    border-top : 0.1875rem solid var(--primary-orange);
+}
+.navbar-nav > li > a:hover {
+    border-top : 0.1875rem solid var(--primary-orange);
 }
